@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoPoland</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="css/Site.css" />
+</head>
+<body>
+    <div class="top-block">
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="hidden-sm-down col-md-4 col-lg-1 logo">
+                        <img src="img/logotype.png" width="200px">
+                    </div>
+                    <div class="hidden-md-down col-lg-3 text-right
+                             offset-lg-6 ">
+                        <div class="vopros">Есть вопрос?</div>
+                        <div class="zvonite">— звоните поможем</div>
+                    </div>
+                 
+                   <div  class="hidden-sm-down col-md-4 col-lg-2 offset-md-4 offset-lg-0 text-right nomer">(066) 464-5557</div>
+                    <div id="icon" class="hidden-md-up col-sm-4 icon_phone" onclick="show()"><img src="img/Phone_icon.svg" width="50"></div>
+                    <script>
+                        function show(){
+                           var icon = document.getElementById("icon");
+                           var phone = document.getElementById("phone")
+                           icon.style = "display:none"
+                           phone.style = "display:block;"
+                        }
+                    </script>
+                    <div id="phone" style="display: none">(066) 464-5557</div>
+                    </div>
+            </header>
+           
+            
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-6">
+                    <div class="bk">Бизнес консалтинг</div>
+                    <div class="vim">Вашего интернет-магазина</div>
+                    <div class="slogan">
+                        Узнайте, как повысить эффективность <br>
+                        работы и увеличить доходы
+                    </div>
+                    <br>
+                    <br>
+                    <a href="#forma" id="btn">Связаться</a>
+                </div>
+                <div class="hidden-sm-down col-md-5 col-lg-6 text-right ">
+                    <div class="main-pic">
+                        <img src="img/main_pic.png" width="470">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="headers">
+            Запишитесь на встречу с нашим <br>
+            специалистом прямо сейчас!
+        </div>     
+        <div class="proof">
+            <div class="row">
+                <div class="col-md-4 point">
+                    <div class="stickers">
+                        <img src="img/stick1.png" width="170">
+                    </div>
+                    <br>
+                    <br> Мы знаем как избавить Вас
+                    <br> от плохих отзывов
+                </div>
+                <div class="col-md-4 point">
+                    <div class="stickers">
+                        <img src="img/stick6.png" width="170">
+                    </div>
+                    <br>
+                    <br> Мы знаем как повысить КПД
+                    <br> Ваших сотрудников
+                </div>
+                <div class="col-md-4 point">
+                    <div class="stickers">
+                        <img src="img/stick3.png" width="170">
+                    </div>
+                    <br>
+                    <br> Мы знаем как повысить продажи
+                    <br> Вашего интернет-магазина
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="forma">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-lg-5 offset-sm-0 offset-md-0 offset-lg-0 hidden-sm-down">
+                    <div id="photo">
+                        <img src="img/portrait-min.png" width="350">
+                    </div>
+                </div>
+                <div class="col-md-6 pull-md-5 col-lg-4 pull-lg-5 offset-md-1 offset-lg-3 col-sm-8 offset-sm-2">
+                    <div id="form-form">
+                        <form name="user">
+                            <div class="ostavte text-center">Оставьте заявку</div>
+                            <div class="vstrecha text-center">Мы свяжемся с Вами</div>
+                            <div class="form-strokes">ВАШЕ ИМЯ</div>
+                            <input type="text" name="name" class="form-fields" placeholder="Введите имя"/>
+                            <div class="form-strokes">КОНТАКТНЫЙ ТЕЛЕФОН</div>
+                            <input type="text" name="phone"  class="form-fields" required placeholder="Введите телефон"/>
+                            <br />
+                            <div class="text-center">
+                                <input type="submit" name="submit" value="Отправить" id="form-button" />
+                            </div>
+                            <div class="text-center">
+                                <div id="loading" style="display:none">
+                                    <img src="img/Ellipsis.gif" />
+                                </div>
+                            </div>
+                        </form>
+                        <div id="success" style="display:none">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <div class="steps-container">
+        <div class="headers">
+            Несколько шагов к успеху
+        </div>
+        <div class="steps">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 point">
+                        <div class="icons">
+                            <img src="img/icon1.jpg" width="100">
+                        </div>
+                        <br>
+                        <br> Вы связываетесь
+                        <br> с нашим специалистом
+                    </div>
+                    <div class="col-md-4 point">
+                        <div class="icons">
+                            <img src="img/icon2.jpg" width="100">
+                        </div>
+                        <br>
+                        <br> Совместно разрабатываем стратегию
+                        <br> по развитию Вашего проекта
+                    </div>
+                    <div class="col-md-4 point">
+                        <div class="icons">
+                            <img src="img/icon4.jpg" width="100">
+                        </div>
+                        <br>
+                        <br> Воплощаем поставленные
+                        <br> задачи в жизнь
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foo">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-4 text-center">
+                    <div class="logo-foo">
+                        <img src="img/logotype.png" width="200px">
+                    </div>
+                    <div class="p-foo">kievconsulter@gmail.com</div>
+                    <div class="p-fooy">© 2018</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/Custom.js"></script>
+    <script src="js/FormSender.js"></script>
+
+</body>
+
+</html>
