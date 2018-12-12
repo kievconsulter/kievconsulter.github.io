@@ -1,0 +1,357 @@
+﻿a[href^=tel] {
+    text-decoration:inherit;
+    color: inherit;
+    }
+
+    .error input,
+    .error textarea {
+      border: 1px solid red;
+    }
+
+    .error {
+      color: red;
+    }
+body {
+    font-family: "MuseoSansCyrl-300";
+    background-color: #fff;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 0;
+    color: #000;
+    -webkit-font-smoothing: antialiazed;
+    -webkit-overflow-scrolling: touch;
+}
+.top-block {
+    background-color: #E3F1F2;
+    height: 600px;
+    padding-left: 10px;
+} 
+
+  
+
+.wrap-site {
+    background: #fff;
+    min-width: 320px;
+    max-width: 1680px;
+    margin: 0 auto;
+}
+/* ////////////////////////////////////////////////////////  Верхушка  ///////////////////////////////////// */
+.logo {
+    margin-top: 20px;
+}
+
+.vopros {
+    color: #00457D;
+    font-family: "MuseoSansCyrl-300";
+    font-size: 14px;
+    margin-top: 24px;
+}
+
+.zvonite {
+    color: #00457D;
+    font-family: "MuseoSansCyrl-300";
+    font-size: 14px;
+}
+
+.nomer {
+    color: #00457D;
+    font-family: "MuseoSansCyrl-700";
+    font-size: 18px;
+    margin-top: 32px;
+}
+#phone{
+    color: #00457D;
+    font-family: "MuseoSansCyrl-700";
+    font-size: 25px;
+    margin-top: 30px;
+}
+#icon {
+    fill: green;
+}
+.icon_phone {
+    margin-top: 20px;
+}
+/* ////////////////////////////////////////////////////////////  Главная  ///////////////////////////////////*/
+.bk {
+    font-family: "MuseoSansCyrl-900";
+    font-size: 40px;
+    color: #00457D;
+    letter-spacing: 1px;
+    margin-top: 120px;
+}
+
+.vim {
+    font-family: "MuseoSansCyrl-500";
+    font-size: 30px;
+    color: #00457E;
+
+}
+
+.slogan {
+    color: #4F6475;
+    font-family: "MuseoSansCyrl-300";
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    margin-top: 15px;
+    margin-left: 2px;
+}
+
+.main-pic {
+    margin-top: 160px;
+    margin-right: 40px;
+}
+
+
+#btn {
+    color: white;
+    background-color: #f8c600;
+    box-shadow: 0px 0px 5px #FEDB8A;
+    font-family: "MuseoSansCyrl-700";
+    font-size: 16px;
+    padding-top: 16px;
+    padding-bottom: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    letter-spacing: 0.7px;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+    #btn:hover {
+        background-color: #FFB700;
+        text-decoration: none;
+    }
+
+
+
+/*////////////////////////////////////////////////////// Пруфы  ////////////////////////////////// */
+.proof {
+    text-align: center;
+}
+
+.headers {
+    color: black;
+    font-family: "MuseoSansCyrl-300";
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 35px;
+}
+
+.headers-low {
+    color: #7B7B7B;
+    font-family: "MuseoSansCyrl-300";
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*//////////////////////////////////////////////////////   Форма   /////////////////////////////*/
+
+#photo {
+    position: relative;
+    left: 135%;
+}
+
+#forma {
+    margin-top: 120px;
+    padding-top: 30px;
+    background-color: #F2F6F7;
+}
+
+#form-form {
+    background-color: white;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+}
+
+.form-strokes {
+    color: #3D3D3D;
+    font-family: "MuseoSansCyrl-500";
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.form-fields {
+    background-color: #F7F7F7;
+    border-style: none;
+    border-radius: 5px;
+    padding: 11px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    color: #797979;
+    font-family: "MuseoSansCyrl-300";
+    font-size: 14px;
+    margin-bottom: 30px;
+    width: 95%
+
+}
+
+#form-button {
+    background-color: #39A0FC;
+    color: white;
+    font-family: "MuseoSansCyrl-700";
+    font-size: 14px;
+    border-radius: 100px;
+ 
+    padding-top: 16px;
+    padding-bottom: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+    border-style: none;
+}
+
+    #form-button:hover {
+        background-color: #0072D8;
+    }
+    #loading {
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+
+.ostavte {
+    color: black;
+    font-family: "MuseoSansCyrl-500";
+    font-size: 30px;
+    text-align: center;
+    line-height: 35px
+}
+
+.vstrecha {
+    font-family: "MuseoSansCyrl-300";
+    font-size: 18px;
+    color: #989898;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 55px;
+}
+
+.steps-container {
+    margin-top: 100px;
+}
+
+.steps {
+    text-align: center;
+}
+
+.point {
+    margin-top: 100px;
+    font-size: 18px;
+}
+
+.foo {
+    margin-top: 200px;
+    background-color: #E3F1F2;
+    height: 300px;
+    padding-top: 100px;
+}
+
+.p-foo {
+    font-family: "MuseoSansCyrl-300";
+    font-size: 16px;
+    color: #00457D;
+    margin-top: 10px;
+}
+
+.logo-foo {
+    margin-bottom: 15px;
+}
+.p-fooy {
+    font-family: "MuseoSansCyrl-300";
+    font-size: 16px;
+    color: #00457D;
+    margin-top: 14px;
+}
+
+
+
+
+@media screen and (max-width: 990px) {
+   
+  
+   
+    .main-pic {
+        transform: scale(0.7, 0.7);
+        -webkit-transform: scale(0.7, 0.7);
+        
+    }
+
+   
+}
+/*//////////////////////////////////////////////////////  Меньше iPad mini  /////////////////////////////*/
+@media screen and (max-width: 766px) {
+    #forma {
+        padding-bottom: 60px;
+    }
+    .main-pic {
+       display: none;
+        
+    }
+    .bk {
+        text-align: center;
+    }
+
+    .vim {
+        text-align: center;
+    }
+
+    .slogan {
+        text-align: center;
+    }
+
+    #btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 160px;
+    }
+    
+   
+  
+}
+    @media screen and (max-width: 558px) {
+        .top-block {     
+            height: 570px;
+        }
+       
+
+        .logo {
+         display: none;
+        }
+
+        .bk {
+            margin-top: 30px;
+            
+        }
+        .ostavte{
+            font-family: "MuseoSansCyrl-300";
+            font-size: 25px;
+        }
+      
+
+        #btn {
+            margin-top: 0px;
+        }
+
+        .headers {
+            margin-top: 40px;
+            font-size: 25px;
+        }
+        .headers-low {
+            font-size: 15px;
+        }
+
+        #form-button {
+            margin-top: 10px;
+        }
+      
+       
+        }
+   
+    
