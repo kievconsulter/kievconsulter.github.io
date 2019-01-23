@@ -1,7 +1,5 @@
 ﻿
-
-
-         // Phone Modal//
+   // Phone Modal//
 
 var modal = document.querySelector(".modal");                    
 var phoneBtn = document.getElementsByClassName("phoneBtn")[0]
@@ -23,9 +21,7 @@ window.addEventListener("click", windowOnClick);
 
 
 
-
-
-            // Href Anchor //
+      // Href Anchor //
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {   
    anchor.addEventListener('click', function (e) {

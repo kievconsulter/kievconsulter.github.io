@@ -20,25 +20,20 @@
     }
 
     .phoneBtn {
+      cursor: pointer;
       position: fixed;
-      right: 100px;
-      bottom: 100px;
-      background: red;
-      height: 100px;
-      width: 100px;
-      border-radius: 100px;
+      right: 5%;
+      bottom: 5%;
+      height: 70px;
       z-index: 100;
+      background-color: #353535;
+      border-radius: 100%;
+      padding: 20px;
+      -webkit-box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.3);
     }
 
-    .phoneBtn::before {
-      background: url(//img/Phone_icon.svg);
-      background-repeat: no-repeat;
-      background-size: 100px;
-      height: 100px;
-      z-index: 104;
-    }
-
-    .b-header {
+    .header {
       background-image: url(../img/main-pic.jpg);
       background-repeat: no-repeat;
       background-size: cover;
@@ -48,23 +43,19 @@
       height: 665px;
     }
 
-    .b-header_line {
+    .header_line {
       height: 40px;
       margin-bottom: 20px;
     }
 
-    .b-header_line__mobile {
-      display: none;
-    }
-
-    .b-header_logo {
+    .header_logo {
       background: url(../img/logotype.png);
       background-repeat: no-repeat;
       background-size: 245px auto;
       height: 50px;
     }
 
-    .b-header_heading {
+    .header_heading {
       font-family: "MuseoSansCyrl-700";
       color: white;
       position: absolute;
@@ -73,35 +64,32 @@
       font-size: 42px;
     }
 
-    .b-header_text {
+    .header_text {
       font-family: "MuseoSansCyrl-500";
       color: white;
       font-size: 25px;
       margin-top: 220px;
     }
 
-    .b-header_text2 {
+    .header_text2 {
       color: white;
+      margin-bottom: 60px;
     }
 
-    .b-header_button {
+    .header_button {
       border-style: none;
       font-size: 16px;
-      margin-top: 45px;
-      padding: 20px 50px;
       border-radius: 100px;
       color: #726462;
       background: white;
       font-family: "MuseoSansCyrl-500";
       text-decoration: none;
       cursor: pointer;
-      line-height: 100px;
       text-align: center;
-      -webkit-box-sizing: content-box;
-      box-sizing: content-box;
+      padding: 20px 40px;
     }
 
-    .b-header_button:hover {
+    .header_button:hover {
       background: #fff7f7;
     }
 
@@ -129,7 +117,7 @@
       text-align: -webkit-center;
     }
 
-    .b-form {
+    .form {
       text-align: center;
       max-width: 340px;
       height: 460px;
@@ -139,21 +127,21 @@
       padding: 40px 10px;
     }
 
-    .b-form_heading {
+    .form_heading {
       font-family: "MuseoSansCyrl-300";
       margin-bottom: 10px;
       font-size: 30px;
       letter-spacing: 0.3px;
     }
 
-    .b-form_heading__small {
+    .form_heading__small {
       color: #989898;
       font-size: 18px;
       margin-bottom: 40px;
       letter-spacing: 0.3px;
     }
 
-    .b-form_input {
+    .form_input {
       -webkit-appearance: none;
       width: 260px;
       height: 20px;
@@ -167,22 +155,22 @@
       margin-bottom: 30px;
     }
 
-    .b-form_input__button {
-      background-color: #39A0FC;
+    .form_input__button {
+      background-color:  #949494;
       color: white;
       font-family: "MuseoSansCyrl-700";
       font-size: 14px;
       border-radius: 100px;
-      padding: 20px 50px 21px 50px;
+      padding: 25px 50px 26px 50px;
       margin: 20px auto;
       border-style: none;
     }
 
-    .b-form_input__button:hover {
-      background: rgb(8, 109, 197);
+    .form_input__button:hover {
+      background:  #616161;
     }
 
-    .b-form_label {
+    .form_label {
       float: left;
       font-family: "MuseoSansCyrl-300";
       font-size: 11px;
@@ -199,13 +187,6 @@
       position: relative
     }
 
-    .b-block_heading {
-      text-align: center;
-      font-size: 32px;
-      font-weight: 600;
-      margin-bottom: 100px;
-    }
-
     .center_text {
       text-align: -webkit-center
     }
@@ -219,8 +200,9 @@
 
     .foo {
       background-color: #E3F1F2;
-      height: 300px;
+      height: 200px;
       padding-top: 100px;
+      text-align: center;
     }
 
     .p-foo {
@@ -289,7 +271,7 @@
     }
 
     @media (min-width: 1600px) {
-      .b-header {
+      .header {
         background-position-y: 0px;
       }
     }
@@ -301,7 +283,7 @@
     }
 
     @media (max-width: 976px) {
-      .b-header {
+      .header {
         background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/main-pic.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -314,56 +296,31 @@
       .b-block_form {
         margin: 50px auto;
       }
-      .b-form {
+      .form {
         margin: 50px auto;
       }
     }
 
     @media (max-width: 765px) {
-      .b-header {
+      .header {
         margin: 0;
-        padding: 0;
-        padding-top: 40px;
-      }
-      .b-header_heading {
-        margin: 160px auto 45px;
+        padding: 40px 20px;
+        height: 500px;
         text-align: center;
+      }
+
+      .header_heading {
+        margin-top: 100px;
         width: 100%;
         position: initial;
       }
-      .b-header_text {
-        text-align: center;
+
+      .header_text {
         margin: -10px auto 50px;
       }
-      .b-header_button {
-        margin: 0 auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto
-      }
-      .b-header_line__mobile {
-        margin-top: -360px;
-      }
-      .b-header_heading {
-        margin: 105px auto 45px;
-      }
-      .b-header {
-        height: 500px;
-      }
-      .b-header_text2 {
+
+      .header_text2 {
         display: none;
-      }
-    }
-
-    @media (max-width: 650px) {
-      .b-block_heading {
-        margin-bottom: 70px;
-      }
-    }
-
-    @media (max-width: 360px) {
-      .b-block_heading {
-        font-size: 25px;
       }
     }
 
