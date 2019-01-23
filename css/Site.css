@@ -110,10 +110,54 @@
       line-height: 35px;
     }
 
+
+    .seo_container, .marketing_container, .smm_container{
+      margin: 100px 0;
+      padding: 50px 0;
+    }
+    .seo, .marketing, .smm{
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+    }
+    .seoPic, .marketingPic, .smmPic {
+      height: 400px;
+      align-self: center;
+    }
+
+    .marketing_container{
+      background-color: #f8fafe;
+      margin: 100px 0;
+      padding: 50px 0;
+    }
+    .text_content{
+      margin-top: -50px;
+    }
+
+    .smm_header{
+      margin-left: 550px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /*//////////////////////////////////////////////////////   Форма   /////////////////////////////*/
 
     .b-block_form {
-      margin: 80px 0;
+      margin: 120px 0;
       text-align: -webkit-center;
     }
 
@@ -156,7 +200,7 @@
     }
 
     .form_input__button {
-      background-color:  #949494;
+      background-color: #0083f4;
       color: white;
       font-family: "MuseoSansCyrl-700";
       font-size: 14px;
@@ -167,7 +211,7 @@
     }
 
     .form_input__button:hover {
-      background:  #616161;
+      background:  #0067c2;
     }
 
     .form_label {
@@ -196,6 +240,12 @@
       text-align: left;
       padding: 20px;
       margin-top: 30px;
+      max-width: 600px;
+
+    }
+
+    .smm_about_text{
+      text-align: right
     }
 
     .foo {
@@ -276,11 +326,39 @@
       }
     }
 
+    @media (max-width: 1120px) {
+
+      .seo_container, .marketing_container, .smm_container{
+        text-align: center;
+      }
+      .about_text{
+        max-width: 1000px;
+      }
+      .seo, .smm{
+        flex-direction: column;
+      }
+      .marketing{
+        flex-direction: column-reverse;
+      }
+      .smm_about_text{
+        text-align: left;
+      }
+      .smm_header{
+        margin-left: 20px;
+      }
+      .container{
+        padding: 0 20px;
+      }
+    }
+
     @media (max-width: 1050px) {
       .container {
         max-width: 1000px;
       }
     }
+
+
+
 
     @media (max-width: 976px) {
       .header {
