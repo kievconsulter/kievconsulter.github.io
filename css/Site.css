@@ -405,10 +405,28 @@
       .header_text2 {
         display: none;
       }
+      .phoneBtn {
+        height: 40px; 
+        padding: 15px;
+      }
+    }
+    @media (max-width: 410px) {
+      .seoPic, .marketingPic, .smmPic {
+        width: 300px;
+
+      }
+
     }
 
     @media (max-width: 350px) {
       .b-form_input {
         max-width: 250px;
+      }
+      .header_heading{
+        font-size: 35px;
+      }
+      .header_text{
+        font-family: "MuseoSansCyrl-300";
+        font-size: 22px;
       }
     }
