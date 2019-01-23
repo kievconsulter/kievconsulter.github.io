@@ -409,13 +409,24 @@
         height: 40px; 
         padding: 15px;
       }
+      .headers{
+        margin-left: 0;
+      }
+      .smm_header{
+        text-align: center;
+      }
+      .seo_container{
+        margin: 0;
+      }
     }
     @media (max-width: 410px) {
       .seoPic, .marketingPic, .smmPic {
         width: 300px;
 
       }
-
+      .modal-content {
+        width: 13rem;
+    }
     }
 
     @media (max-width: 350px) {
