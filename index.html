@@ -4,61 +4,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KievConsult</title>
-    <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="fonts.css" />
     <link rel="stylesheet" href="css/Site.css" />
+
 </head>
 <body>
-    <div class="top-block">
-        <div class="container">
-            <header>
-                <div class="row">
-                    <div class="hidden-sm-down col-md-4 col-lg-1 logo">
-                        <img src="img/logotype.png" width="200px">
+        <header class="b-header"> 
+                <div class="container">
+                    <div class="b-header_line" >
+                        <div class="b-header_logo"></div>
                     </div>
-                    <div class="hidden-md-down col-lg-3 text-right
-                             offset-lg-6 ">
-                        <div class="vopros">Есть вопрос?</div>
-                        <div class="zvonite">— звоните поможем</div>
-                    </div>
-                 
-                   <div  class="hidden-sm-down col-md-4 col-lg-2 offset-md-4 offset-lg-0 text-right nomer">(095) 733-4490</div>
-                    <div id="icon" class="hidden-md-up col-sm-4 icon_phone" onclick="show()"><img src="img/Phone_icon.svg" width="50"></div>
-                    <script>
-                        function show(){
-                           var icon = document.getElementById("icon");
-                           var phone = document.getElementById("phone")
-                           icon.style = "display:none"
-                           phone.style = "display:block;"
-                        }
-                    </script>
-                    <div id="phone" style="display: none">(095) 733-4490</div>
-                    </div>
-            </header>
-           
-            
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-6">
-                    <div class="bk">Комплексные решения</div>
-                    <div class="vim">для Вашего интернет-магазина</div>
-                    <div class="slogan">
-                        Мы любим сложные и интересные задачи!<br>
-                    </div>
-                    <br>
-                    <br>
-                    <a href="#forma" id="btn">Связаться</a>
-                </div>
-                <div class="hidden-sm-down col-md-5 col-lg-6 text-right ">
-                    <div class="main-pic">
-                        <img src="img/main_pic.png" width="470">
-                    </div>
+                    <div class="phoneBtn"></div>
+                    <h1 class="b-header_heading ">Комплексные решения</h1>
+                    <p class=" b-header_text">для Вашего интернет-магазина</p>
+                    <p class=" b-header_text2">Мы любим сложные и интересные задачи!</p>
+                    <a href="#forma" class="b-header_button" >Связаться</a>    
+           </div>
+        </header>
+        <div class="modal">
+                <div class="modal-content">
+                    <span class="close-button">&times;</span>
+                    <h1>Hello, I am a modal!</h1>
                 </div>
             </div>
-
-        </div>
-    </div>
+        
+    
     <div class="container">
         <div class="mainHeader">Что мы умеем?</div>
         <div class="headers">
@@ -108,22 +78,18 @@
             </div>
     <div class="foo">
         <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col-md-4 text-center">
                     <div class="logo-foo">
-                        <img src="img/logotype.png" width="200px">
+                    <img src="img/logotype.png" width="200px">
                     </div>
                     <div class="p-foo">kievconsulter@gmail.com</div>
-                    <div class="p-fooy">© 2015 - 2019</div>
+                    <div class="p-fooYear">© 2015 - 2019</div>
                 </div>
-            </div>
-        </div>
     </div>
+    
+        
 
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/Custom.js"></script>
     <script src="js/FormSender.js"></script>
-
+    <script src="js/Custom.js"></script>
 </body>
 
 </html>

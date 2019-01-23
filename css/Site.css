@@ -1,206 +1,162 @@
-﻿a[href^=tel] {
-    text-decoration:inherit;
-    color: inherit;
+﻿    a[href^=tel] {
+      text-decoration: inherit;
+      color: inherit;
     }
 
-    .error input,
-    .error textarea {
-      border: 1px solid red;
+    body {
+      font-family: "MuseoSansCyrl-300";
+      background-color: #fff;
+      font-size: 16px;
+      margin: 0 auto;
+      padding: 0;
+      color: #000;
+      -webkit-font-smoothing: antialiazed;
+      -webkit-overflow-scrolling: touch;
     }
 
-    .error {
-      color: red;
-    }
-body {
-    font-family: "MuseoSansCyrl-300";
-    background-color: #fff;
-    font-size: 16px;
-    margin: 0 auto;
-    padding: 0;
-    color: #000;
-    -webkit-font-smoothing: antialiazed;
-    -webkit-overflow-scrolling: touch;
-}
-.top-block {
-    background-color: #E3F1F2;
-    height: 600px;
-    padding-left: 10px;
-} 
-
-  
-
-.wrap-site {
-    background: #fff;
-    min-width: 320px;
-    max-width: 1680px;
-    margin: 0 auto;
-}
-/* ////////////////////////////////////////////////////////  Верхушка  ///////////////////////////////////// */
-.logo {
-    margin-top: 20px;
-}
-
-.vopros {
-    color: #00457D;
-    font-family: "MuseoSansCyrl-300";
-    font-size: 14px;
-    margin-top: 24px;
-}
-
-.zvonite {
-    color: #00457D;
-    font-family: "MuseoSansCyrl-300";
-    font-size: 14px;
-}
-
-.nomer {
-    color: #00457D;
-    font-family: "MuseoSansCyrl-700";
-    font-size: 18px;
-    margin-top: 32px;
-}
-#phone{
-    color: #00457D;
-    font-family: "MuseoSansCyrl-700";
-    font-size: 25px;
-    margin-top: 30px;
-}
-#icon {
-    fill: green;
-}
-.icon_phone {
-    margin-top: 20px;
-}
-/* ////////////////////////////////////////////////////////////  Главная  ///////////////////////////////////*/
-.bk {
-    font-family: "MuseoSansCyrl-900";
-    font-size: 40px;
-    color: #00457D;
-    letter-spacing: 0.5px;
-    margin-top: 120px;
-}
-
-.vim {
-    font-family: "MuseoSansCyrl-500";
-    font-size: 30px;
-    color: #00457E;
-
-}
-
-.slogan {
-    color: #4F6475;
-    font-family: "MuseoSansCyrl-300";
-    font-size: 16px;
-    letter-spacing: 0.2px;
-    margin-top: 15px;
-    margin-left: 2px;
-}
-
-.main-pic {
-    margin-top: 160px;
-    margin-right: 40px;
-}
-
-
-#btn {
-    color: white;
-    background-color: #f8c600;
-    box-shadow: 0px 0px 5px #FEDB8A;
-    font-family: "MuseoSansCyrl-700";
-    font-size: 16px;
-    padding-top: 16px;
-    padding-bottom: 18px;
-    padding-left: 40px;
-    padding-right: 40px;
-    letter-spacing: 0.7px;
-    border-radius: 100px;
-    margin-top: 30px;
-}
-    #btn:hover {
-        background-color: #FFB700;
-        text-decoration: none;
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
     }
 
+    .phoneBtn {
+      position: fixed;
+      right: 100px;
+      bottom: 100px;
+      background: red;
+      height: 100px;
+      width: 100px;
+      border-radius: 100px;
+      z-index: 100;
+    }
 
+    .phoneBtn::before {
+      background: url(//img/Phone_icon.svg);
+      background-repeat: no-repeat;
+      background-size: 100px;
+      height: 100px;
+      z-index: 104;
+    }
 
-/*////////////////////////////////////////////////////// Пруфы  ////////////////////////////////// */
-.proof {
-    text-align: center;
-}
-.mainHeader{
-    color: black;
-    font-family: "MuseoSansCyrl-500";
-    font-size: 35px;
-    text-align: center;
-    margin-top: 80px;
-}
-.headers {
-    color: black;
-    font-family: "MuseoSansCyrl-300";
-    font-size: 30px;
-    margin-top: 80px;
-    margin-left: 20px;
-    line-height: 35px;
-}
+    .b-header {
+      background-image: url(../img/main-pic.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding: 40px 10px 0 60px;
+      overflow: hidden;
+      height: 665px;
+    }
 
-.headers-low {
-    color: #7B7B7B;
-    font-family: "MuseoSansCyrl-300";
-    font-size: 20px;
-    text-align: center;
-    margin-top: 10px;
-}
+    .b-header_line {
+      height: 40px;
+      margin-bottom: 20px;
+    }
 
-/*//////////////////////////////////////////////////////   Форма   /////////////////////////////*/
+    .b-header_line__mobile {
+      display: none;
+    }
 
-#photo {
-    position: relative;
-    left: 135%;
-}
+    .b-header_logo {
+      background: url(../img/logotype.png);
+      background-repeat: no-repeat;
+      background-size: 245px auto;
+      height: 50px;
+    }
 
+    .b-header_heading {
+      font-family: "MuseoSansCyrl-700";
+      color: white;
+      position: absolute;
+      letter-spacing: 0px;
+      margin-top: 135px;
+      font-size: 42px;
+    }
 
-.b-block_form {
-
-    margin: 80px 0;
-    text-align: -webkit-center;
-}
-
-    @media (max-width: 910px) {
-      .b-block_form {
-        margin: 50px auto; 
-    } 
-}
-  
-  .b-form {
-    text-align: center;
-    max-width: 320px;
-    height: 460px;
-    background: #ffffff;
-    -webkit-box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
-            box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
-    padding: 40px 10px;
- }
-    @media (max-width: 910px) {
-   .b-form {
-        margin: 50px auto; 
-
-    } 
-      }
-    .b-form_heading {
+    .b-header_text {
       font-family: "MuseoSansCyrl-500";
+      color: white;
+      font-size: 25px;
+      margin-top: 220px;
+    }
+
+    .b-header_text2 {
+      color: white;
+    }
+
+    .b-header_button {
+      border-style: none;
+      font-size: 16px;
+      margin-top: 45px;
+      padding: 20px 50px;
+      border-radius: 100px;
+      color: #726462;
+      background: white;
+      font-family: "MuseoSansCyrl-500";
+      text-decoration: none;
+      cursor: pointer;
+      line-height: 100px;
+      text-align: center;
+      -webkit-box-sizing: content-box;
+      box-sizing: content-box;
+    }
+
+    .b-header_button:hover {
+      background: #fff7f7;
+    }
+
+    .mainHeader {
+      color: black;
+      font-family: "MuseoSansCyrl-500";
+      font-size: 35px;
+      text-align: center;
+      margin-top: 80px;
+    }
+
+    .headers {
+      color: black;
+      font-family: "MuseoSansCyrl-300";
+      font-size: 30px;
+      margin-top: 80px;
+      margin-left: 20px;
+      line-height: 35px;
+    }
+
+    /*//////////////////////////////////////////////////////   Форма   /////////////////////////////*/
+
+    .b-block_form {
+      margin: 80px 0;
+      text-align: -webkit-center;
+    }
+
+    .b-form {
+      text-align: center;
+      max-width: 340px;
+      height: 460px;
+      background: #ffffff;
+      -webkit-box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+      padding: 40px 10px;
+    }
+
+    .b-form_heading {
+      font-family: "MuseoSansCyrl-300";
       margin-bottom: 10px;
-      letter-spacing: 0.3px; 
-      }
-   .b-form_heading__small {
-        color: #989898;
-        font-size: 18px;
-        margin-bottom: 40px;
-        letter-spacing: 0.3px; 
-       }
+      font-size: 30px;
+      letter-spacing: 0.3px;
+    }
+
+    .b-form_heading__small {
+      color: #989898;
+      font-size: 18px;
+      margin-bottom: 40px;
+      letter-spacing: 0.3px;
+    }
+
     .b-form_input {
       -webkit-appearance: none;
       width: 260px;
-      height: 40px;
+      height: 20px;
       background: #f7f7f7;
       padding: 12px;
       font-family: "MuseoSansCyrl-300";
@@ -208,187 +164,211 @@ body {
       border: 1px solid #f7f7f7;
       display: block;
       margin: 0 auto;
-      margin-bottom: 30px; 
+      margin-bottom: 30px;
     }
-    
-    @media (max-width: 350px) {
-        .b-form_input {
-          max-width: 250px;}}
-
 
     .b-form_input__button {
-        background-color: #39A0FC;
-        color: white;
-        font-family: "MuseoSansCyrl-700";
-        font-size: 14px;
-        border-radius: 100px;
-        padding: 16px 40px 18px 40px;
-        margin: 20px auto;
-        border-style: none;
-        }
-   .b-form_input__button:hover {
-          background: rgb(8, 109, 197); 
-        }
+      background-color: #39A0FC;
+      color: white;
+      font-family: "MuseoSansCyrl-700";
+      font-size: 14px;
+      border-radius: 100px;
+      padding: 20px 50px 21px 50px;
+      margin: 20px auto;
+      border-style: none;
+    }
+
+    .b-form_input__button:hover {
+      background: rgb(8, 109, 197);
+    }
+
     .b-form_label {
-        float: left;
-        font-family: "MuseoSansCyrl-300";
-        font-size: 11px;
-        color: #000000;
-        text-transform: uppercase;
-        display: block;
-        margin-bottom: 10px;
-        padding-left: 25px;
-        letter-spacing: 0.3px; 
+      float: left;
+      font-family: "MuseoSansCyrl-300";
+      font-size: 11px;
+      color: #000000;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 10px;
+      padding-left: 35px;
+      letter-spacing: 0.3px;
     }
-  #loading{
-    top: 30px;
-    position: relative
-  }
-.steps-container {
-    margin-top: 100px;
-}
 
-.steps {
-    text-align: center;
-}
-
-.point {
-    margin-top: 100px;
-    font-size: 18px;
-}
-
-.b-block {
-    padding-top: 100px;
+    #loading {
+      top: 30px;
+      position: relative
     }
-  
+
     .b-block_heading {
       text-align: center;
       font-size: 32px;
       font-weight: 600;
-      margin-bottom: 100px; }
-      @media (max-width: 650px) {
-        .b-block_heading {
-          margin-bottom: 70px; } }
-          @media (max-width: 360px) {
-            .b-block_heading {
-              font-size: 25px; } }
-
-              .center_text{
-                text-align: -webkit-center
-              }
-              .about_text{
-                line-height: 27px;
-              max-width: 1000px;
-              text-align: left;
-              padding: 20px;
-              margin-top: 30px;
-              }
-.foo {
-    background-color: #E3F1F2;
-    height: 300px;
-    padding-top: 100px;
-}
-
-.p-foo {
-    font-family: "MuseoSansCyrl-300";
-    font-size: 16px;
-    color: #00457D;
-    margin-top: 10px;
-}
-
-.logo-foo {
-    margin-bottom: 15px;
-}
-.p-fooy {
-    font-family: "MuseoSansCyrl-300";
-    font-size: 16px;
-    color: #00457D;
-    margin-top: 14px;
-}
-
-
-
-
-@media screen and (max-width: 990px) {
-   
-  
-   
-    .main-pic {
-        transform: scale(0.7, 0.7);
-        -webkit-transform: scale(0.7, 0.7);
-        
+      margin-bottom: 100px;
     }
 
-   
-}
-/*//////////////////////////////////////////////////////  Меньше iPad mini  /////////////////////////////*/
-@media screen and (max-width: 766px) {
-    #forma {
-        padding-bottom: 60px;
+    .center_text {
+      text-align: -webkit-center
     }
-    .main-pic {
-       display: none;
-        
+
+    .about_text {
+      line-height: 27px;
+      text-align: left;
+      padding: 20px;
+      margin-top: 30px;
     }
-    .bk {
+
+    .foo {
+      background-color: #E3F1F2;
+      height: 300px;
+      padding-top: 100px;
+    }
+
+    .p-foo {
+      font-family: "MuseoSansCyrl-300";
+      font-size: 16px;
+      color: #00457D;
+      margin-top: 10px;
+    }
+
+    .logo-foo {
+      margin-bottom: 15px;
+    }
+
+    .p-fooYear {
+      font-family: "MuseoSansCyrl-300";
+      font-size: 16px;
+      color: #00457D;
+      margin-top: 14px;
+    }
+
+    .modal {
+      display: block;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      visibility: hidden;
+      transform: scale(1.1);
+      transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+    }
+
+    .modal-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      padding: 4rem 4rem;
+      width: 24rem;
+    }
+
+    .close-button {
+      position: absolute;
+      font-size: 30px;
+      top: 10px;
+      right: 20px;
+      width: 3rem;
+      line-height: 3rem;
+      text-align: center;
+      cursor: pointer;
+      color: black;
+    }
+
+    .close-button:hover {
+      color: darkgray;
+    }
+
+    .show-modal {
+      opacity: 1;
+      visibility: visible;
+      transform: scale(1.0);
+      transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+    }
+
+    @media (min-width: 1600px) {
+      .b-header {
+        background-position-y: 0px;
+      }
+    }
+
+    @media (max-width: 1050px) {
+      .container {
+        max-width: 1000px;
+      }
+    }
+
+    @media (max-width: 976px) {
+      .b-header {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/main-pic.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 600px;
+      }
+    }
+
+    @media (max-width: 910px) {
+      .b-block_form {
+        margin: 50px auto;
+      }
+      .b-form {
+        margin: 50px auto;
+      }
+    }
+
+    @media (max-width: 765px) {
+      .b-header {
+        margin: 0;
+        padding: 0;
+        padding-top: 40px;
+      }
+      .b-header_heading {
+        margin: 160px auto 45px;
         text-align: center;
-    }
-
-    .vim {
+        width: 100%;
+        position: initial;
+      }
+      .b-header_text {
         text-align: center;
-    }
-
-    .slogan {
-        text-align: center;
-    }
-
-    #btn {
-        display: block;
+        margin: -10px auto 50px;
+      }
+      .b-header_button {
         margin: 0 auto;
-        margin-top: 20px;
-        width: 160px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+      }
+      .b-header_line__mobile {
+        margin-top: -360px;
+      }
+      .b-header_heading {
+        margin: 105px auto 45px;
+      }
+      .b-header {
+        height: 500px;
+      }
+      .b-header_text2 {
+        display: none;
+      }
     }
-    
-   
-  
-}
-    @media screen and (max-width: 558px) {
-        .top-block {     
-            height: 570px;
-        }
-       
 
-        .logo {
-         display: none;
-        }
+    @media (max-width: 650px) {
+      .b-block_heading {
+        margin-bottom: 70px;
+      }
+    }
 
-        .bk {
-            margin-top: 30px;
-            
-        }
-        .ostavte{
-            font-family: "MuseoSansCyrl-300";
-            font-size: 25px;
-        }
-      
+    @media (max-width: 360px) {
+      .b-block_heading {
+        font-size: 25px;
+      }
+    }
 
-        #btn {
-            margin-top: 0px;
-        }
-
-        .headers {
-            margin-top: 40px;
-            font-size: 25px;
-        }
-        .headers-low {
-            font-size: 15px;
-        }
-
-        #form-button {
-            margin-top: 10px;
-        }
-      
-       
-        }
-   
-    
+    @media (max-width: 350px) {
+      .b-form_input {
+        max-width: 250px;
+      }
+    }
